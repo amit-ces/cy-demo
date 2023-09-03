@@ -1,0 +1,23 @@
+{
+  "appDetails": {
+    "ecommURL": "https://demo.nopcommerce.com/clothing"
+  },
+
+  "locators": {
+    "allProducts": "div.item-grid div.item-box",
+    "itemName": "div > div.details > h2 > a",
+    "itemDetails": "div.item-grid div.item-box div.product-item div.details",
+    "itemName_InsideDetails": "h2 > a",
+    "itemPrice": "div.add-info > div.prices > span",
+    "itemOldPrice": "price old-price",
+    "addToCart_Btn": "div.buttons > button:nth-child(1)"
+  },
+
+  "eComm_OLD": {
+    "searchBox_OLD": "#inputValEnter",
+
+    "categoryOptions_LeftNav_OLD": "div[data-dpidt='cat_nav'] > ul.top-cat-wrapper div:contains('Feature Phone')",
+
+    "searchResult_Title_OLD": "#searchMessageContainer .search-result-txt-section > span"
+  }
+}

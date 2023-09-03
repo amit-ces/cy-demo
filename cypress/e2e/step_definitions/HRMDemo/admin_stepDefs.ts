@@ -1,6 +1,5 @@
-/// <reference types="cypress-xpath" />
 import { When } from '@badeball/cypress-cucumber-preprocessor'
-import { AdminPage } from '../../page-Objects/adminPO/admin.page'
+import { AdminPage } from '../../page-Objects/HRMDemo/adminPO/admin.page'
 
 const admin = new AdminPage()
 

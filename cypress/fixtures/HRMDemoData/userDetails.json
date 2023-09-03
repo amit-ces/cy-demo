@@ -1,0 +1,25 @@
+{
+  "data": {},
+
+  "locator": {
+    "add_btn": "button.oxd-button--medium.oxd-button--secondary[type='button']",
+
+    "addUser_Heading": ".orangehrm-main-title",
+
+    "userRole_DD": "div[class*='input-group']:has(label:contains('User Role')) div[class*='oxd-select-text--active']",
+
+    "option_DD": "[role='listbox'] [role='option'] span",
+
+    "status_DD": "div[class*='input-group']:has(label:contains('Status')) div[class*='oxd-select-text--active']",
+
+    "employeeName_Textfield": "input[placeholder='Type for hints...']",
+
+    "username_Textfield": "div[class*='input-group']:has(label:contains('Username')) input[class*='oxd-input--active']",
+
+    "password_Textfield": "input[type='password']",
+
+    "save_btn": "[type='submit']",
+
+    "successMessage": ".oxd-toast-content--success .oxd-text--toast-title"
+  }
+}

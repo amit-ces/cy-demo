@@ -11,16 +11,24 @@
 //
 //
 // -- This is a parent command --
+import login from '../fixtures/loginDetails.json'
 Cypress.Commands.add(
   'login',
   (username, password) => {
-    cy.get('[placeholder="Username"]').type(
-      'Admin'
+    cy.get(login.locator.username).type(
+      login.data.username
     )
-    cy.get('[placeholder="Password"]').type(
-      'admin123'
+    cy.get(login.locator.password).type(
+      login.data.password
     )
-    cy.xpath('//button[@type="submit"]').click()
+    cy.xpath(login.locator.loginBtn).click()
+    // cy.get('[placeholder="Username"]').type(
+    //   'Admin'
+    // )
+    // cy.get('[placeholder="Password"]').type(
+    //   'admin123'
+    // )
+    // cy.xpath('//button[@type="submit"]').click()
   }
 )
 //

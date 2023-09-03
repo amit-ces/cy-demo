@@ -1,0 +1,6 @@
+{
+  "locator": {
+    "cart_btn": ".cart-label",
+    "added_productName_Cart": ".product-name"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "Demostration of Cypress sample project using typescript.",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
   "author": "Amit K Verma",
