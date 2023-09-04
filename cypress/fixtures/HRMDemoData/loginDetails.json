@@ -1,0 +1,11 @@
+{
+  "data": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "locator": {
+    "username": "[placeholder='Username']",
+    "password": "[placeholder='Password']",
+    "loginBtn": "//button[@type='submit']"
+  }
+}

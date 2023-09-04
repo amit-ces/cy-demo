@@ -1,0 +1,9 @@
+{
+  "navigationMenus": {
+    "locator": {
+      "pageTitle": "h6",
+      "menuItems": "a > span"
+    },
+    "data": {}
+  }
+}

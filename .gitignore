@@ -1,0 +1,10 @@
+# End to End Tests
+cypress/downloads/
+node_modules/
+reports/
+*.log
+*.txt
+testresults/
+screenshots/
+package-lock.json
+cypress/e2e/examples
